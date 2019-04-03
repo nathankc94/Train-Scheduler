@@ -7,7 +7,7 @@ Train schedule application that incorporates Firebase to host arrival and depart
 __Link to website__ <br>
 https://nathankc94.github.io/Train-Scheduler/<br>
 __Sources__ <br>
-(07-Firebase/ 17-Timesheet)
+(07-Firebase/ 17-Timesheet) <br>
 https://getbootstrap.com/docs/4.3/components/dropdowns/ (to make dropdown on train time input)
 
 # Pseudo Code 
