@@ -1,0 +1,11 @@
+body {
+    background-image: url("/assets/black-and-white-carriage-clouds-258455.jpg");
+    background-size: cover;
+}
+
+.jumbotron {
+    background-image: url("/assets/perspective-public-transportation-railway-1771670.jpg");
+    
+    background-position: center;
+    color: white;
+}

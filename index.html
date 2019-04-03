@@ -14,12 +14,13 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Link Added Moment JS -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
     <div class="container">
         <!-- Jumbotron -->
-        <div class="jumbotron" style="background-color: rgb(97, 94, 94); color: white">
+        <div class="jumbotron">
             <h1 class="text-center">Anytime is Train Time </h1>
             <h3 class="text-center">Choo-Choo Train</h3>
         </div>
@@ -59,32 +60,64 @@
                         <!-- Train Input -->
                         <form>
                             <div class="form-group">
-                                <label for="train-name-input">Train Name</label>
-                                <input class="form-control" id="train-name-input" placeholder="shinkansen" type="text">
+                                <label for="train-input">Train Name</label>
+                                <input class="form-control" id="train-input" placeholder="Shinkansen" type="text">
                             </div>
                             <div class="form-group">
-                                <label for="Destination-input">Destination</label>
-                                <input class="form-control" id="Destination-input" placeholder="Berlin" type="text">
+                                <label for="destination-input">Destination</label>
+                                <input class="form-control" id="destination-input" placeholder="Berlin" type="text">
                             </div>
                             <div class="form-group">
-                                <label for="first-train-time-input">First Train Time</label>
-                                <select class="custom-select" id="first-train-time-input">
-                                    <option selected>Select Time</option>
-                                    <option value="1">11:00 am</option>
-                                    <option value="2">12:00 pm</option>
-                                    <option value="3">1:00 pm</option>
+                                <label for="first-train-time-input">First Train Time</label> <br>
+                                <select class="btn btn-secondary dropdown-toggle" id="first-train-time-input1">
+                                    <option selected value="00">00:</option>
+                                    <option value="01:">01:</option>
+                                    <option value="02:">02:</option>
+                                    <option value="03:">03:</option>
+                                    <option value="04:">04:</option>
+                                    <option value="05:">05:</option>
+                                    <option value="06:">06:</option>
+                                    <option value="07:">07:</option>
+                                    <option value="08:">08:</option>
+                                    <option value="09:">09:</option>
+                                    <option value="10:">10:</option>
+                                    <option value="11:">11:</option>
+                                    <option value="12:">12:</option>
                                 </select>
+                                <select class="btn btn-secondary dropdown-toggle" id="first-train-time-input2">
+
+                                    <option selected value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+
+                                </select>
+                                <select class="btn btn-secondary dropdown-toggle" id="first-train-time-input3">
+
+                                    <option selected value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                </select>
+                                <!-- <select class="btn btn-secondary dropdown-toggle" id="first-train-time-input4">
+                                    <option selected value="am">am</option>
+                                    <option value="pm">pm</option>
+                                </select> -->
                             </div>
                             <div class="form-group">
-                                <label for="Frequency-input">Frequency (min)</label>
-                                <select class="custom-select" id="Frequency-input">
-                                    <option selected>Select Minute</option>
-                                    <option value="1">1 min</option>
-                                    <option value="2">2 min</option>
-                                    <option value="3">3 min</option>
-                                </select>
+                                <label for="frequency-input">Frequency (min)</label>
+                                <input class="form-control" id="frequency-input" placeholder="15" type="text">
                             </div>
                             <button class="btn btn-primary float-right" id="add-train-btn">Submit</button>
+
                         </form>
 
                     </div>
